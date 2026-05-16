@@ -14,10 +14,10 @@ app.add_middleware(
 )
 
 # Despliegue en Render
-# client = MongoClient(os.environ["MONGO_URI"])
+client = MongoClient(os.environ["MONGO_URI"])
 
 # Pruebas locales
-client = MongoClient("mongodb://ISIS2304C15202610:eNSy5oIPVvfj@157.253.236.88:8087")
+# client = MongoClient("mongodb://ISIS2304C15202610:eNSy5oIPVvfj@157.253.236.88:8087")
 db = client["ISIS2304C15202610"]
 
 
